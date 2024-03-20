@@ -1515,11 +1515,11 @@ footer {
   }
 
   /* side-menu */
-  #side-menu-homepage.show-side-menu {
+  #side-menu.show-side-menu {
     left: 0;
   }
 
-  #side-menu-homepage {
+  #side-menu {
     position: fixed;
     top: 2rem;
     left: -30rem;
@@ -1623,7 +1623,7 @@ footer {
     line-height: 1.5rem;
   }
 
-  div#overlay-homepage {
+  div#overlay {
     display: none;
     position: fixed;
     top: 2rem;

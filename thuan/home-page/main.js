@@ -1,8 +1,8 @@
-const sideMenuHome = document.getElementById('side-menu-homepage');
-const showSideMenuHome = document.getElementById('toggle-menu-homepage');
+const sideMenuHome = document.getElementById('side-menu');
+const showSideMenuHome = document.getElementById('toggle-menu');
 const hideSideMenuHome = document.getElementById('close-menu');
 
-const overlayHome = document.getElementById('overlay-homepage');
+const overlayHome = document.getElementById('overlay');
 
 showSideMenuHome.onclick = () => {
     sideMenuHome.classList.add('show-side-menu');
