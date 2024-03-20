@@ -85,5 +85,22 @@ console.log(hideTags(6));
 console.log(hideTags(7));
 console.log(hideTags(8));
 
-
+// catalog page
+{
+    const sideMenu = document.getElementById('side-menu');
+    const showSideMenu = document.getElementById('toggle-menu');
+    const hideSideMenu = document.getElementById('close-menu');
+    
+    const overlay = document.getElementById('overlay');
+    
+    showSideMenu.onclick = () => {
+        sideMenu.classList.add('show-side-menu');
+        overlay.style.display = 'block';
+    }
+    
+    hideSideMenu.onclick = () => {
+        sideMenu.classList.remove('show-side-menu');
+        overlay.style.display = 'none';
+    }
+}
 

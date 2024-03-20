@@ -13,13 +13,37 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <script src="../main.js" defer></script>
+    <script src="./main.js" defer></script>
 </head>
 
 <body>
     <div class="add">
         <span>Free shipping over $50!</span>
     </div>
+    <section id="side-menu-homepage" class="side-menu">
+        <div class="top-section">
+            <div class="side-header">
+                <img src="../assets/images/ic-logo.svg" alt="ic-logo">
+                <img src="../assets/images/ic-close-menu.svg" alt="ic-close-menu" id="close-menu" class="close-menu">
+            </div>
+            <form action="" id="search-bar">
+                <img src="../assets/images/ic-search.svg" alt="ic-search" id="ic-search" class="ic-search">
+                <input type="search" placeholder="Search">
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="../home-page/index.html">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="../catalog-page/index.html">Product</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button>
+            <span>SIGN UP</span>
+        </button>
+    </section>
+    <div id="overlay-homepage"></div>
     <!-- Header Section -->
     <header id="header-section" class="container">
         <div class="header">
@@ -37,7 +61,7 @@
             </div>
             <div class="header-nav">
                 <div class="header-nav-left">
-                    <img src="../assets/images/ic-menu.svg" alt="ic-menu" class="ic-menu">
+                    <img src="../assets/images/ic-menu.svg" alt="ic-menu" class="ic-menu" id="toggle-menu-homepage">
                     <img src="../assets/images/ic-logo.svg" alt="logo-page">
                 </div>
                 <nav>
@@ -49,8 +73,8 @@
                     </ul>
                 </nav>
                 <div class="icons">
-                    <a href="#"><img src="../assets/images/ic-search.svg" alt="ic-search"></a>
-                    <a href="#"><img src="../assets/images/ic-personal.svg" alt="ic-personal"></a>
+                    <a href="#"><img src="../assets/images/ic-search.svg" alt="ic-search" class="ic-search"></a>
+                    <a href="#"><img src="../assets/images/ic-personal.svg" alt="ic-personal" class="ic-personal"></a>
                     <div class="cart">
                         <a href="#">
                             <img src="../assets/images/ic-cart.svg" alt="ic-cart">
@@ -200,6 +224,27 @@
     </section>
     <!-- Newsletter Banner -->
     <section id="newsLetter" class="container">
+        <div class="newsLetter">
+            <img src="../assets/images/newsLetter-img.png" alt="newsLetter-img" class="newsLetter-img">
+            <div class="content">
+                <div class="content-title">
+                    <h3>Join Our Newsletter</h3>
+                    <span>Sign up for deals, new products and promotions</span>
+                </div>
+                <div class="form">
+                    <form action="">
+                        <img src="../assets/images/ic-email.svg" alt="ic-email">
+                        <input type="email" placeholder="Email address">
+                    </form>
+                    <button>
+                        <span>Sign Up</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="newsLetter-2">
         <div class="newsLetter">
             <img src="../assets/images/newsLetter-img.png" alt="newsLetter-img" class="newsLetter-img">
             <div class="content">
