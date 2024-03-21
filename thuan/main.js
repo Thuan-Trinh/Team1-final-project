@@ -1,3 +1,21 @@
+// sidebar header toggle
+{
+    const sideMenu = document.getElementById('side-menu');
+    const showSideMenu = document.getElementById('toggle-menu');
+    const hideSideMenu = document.getElementById('close-menu');
+    
+    const overlay = document.getElementById('overlay');
+    
+    showSideMenu.onclick = () => {
+        sideMenu.classList.toggle('show-side-menu');
+        overlay.style.display = 'block';
+    }
+    
+    hideSideMenu.onclick = () => {
+        sideMenu.classList.remove('show-side-menu');
+        overlay.style.display = 'none';
+    }
+}
 
 // img catalog array
 // Mảng chứa thông tin của 6 card
@@ -87,22 +105,4 @@
     console.log(hideTags(8));
 }
 
-// catalog page
-{
-    const sideMenu = document.getElementById('side-menu');
-    const showSideMenu = document.getElementById('toggle-menu');
-    const hideSideMenu = document.getElementById('close-menu');
-    
-    const overlay = document.getElementById('overlay');
-    
-    showSideMenu.onclick = () => {
-        sideMenu.classList.toggle('show-side-menu');
-        overlay.style.display = 'block';
-    }
-    
-    hideSideMenu.onclick = () => {
-        sideMenu.classList.remove('show-side-menu');
-        overlay.style.display = 'none';
-    }
-}
 
