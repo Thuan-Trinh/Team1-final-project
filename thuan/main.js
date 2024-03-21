@@ -54,7 +54,7 @@
     const tags = document.querySelectorAll(".tags");
     function hideTags(n) {
       if (n > 0 && n <= tags.length) {
-        let targetTag = tags[n - 1];
+        let targetTag = tags[n];
         if (targetTag.style.display === "none") {
           targetTag.style.display = "block";
         } else {
@@ -65,11 +65,11 @@
       }
     }
 
-    console.log(hideTags(3));
+    console.log(hideTags(2));
     console.log(hideTags(5));
     console.log(hideTags(6));
-    console.log(hideTags(7));
     console.log(hideTags(8));
+    console.log(hideTags(7));
   }
   {
     // Ẩn hiển side menu

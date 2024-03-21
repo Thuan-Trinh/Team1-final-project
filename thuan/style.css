@@ -172,45 +172,11 @@ body {
   border: none;
 }
 
-/* .shipping-btns button:first-child {
-  border: none;
-  border-radius: 0.25rem;
-
-  background-color: var(--neutral-01);
-  width: 7.5rem;
-  height: 1.375rem;
-
-  color: var(--color-primary);
-  text-align: center;
-  font-family: "Inter";
-  font-size: 0.75rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1rem;
-}
-
-.shipping-btns button:last-child {
-  border: none;
-  border-radius: 0.25rem;
-  background-color: transparent;
-
-  width: 7.5rem;
-  height: 1.375rem;
-
-  color: var(--color-primary);
-  text-align: center;
-  font-family: "Inter";
-  font-size: 0.75rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1rem;
-} */
-
 .btn-active {
   border: none;
   border-radius: 0.25rem;
 
-  background-color: var(--neutral-01)!important;
+  background-color: var(--neutral-01) !important;
   width: 7.5rem;
   height: 1.375rem;
 
@@ -245,10 +211,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  gap: 2rem;
   align-items: center;
-
-  /* margin-bottom: 1.56rem; */
 }
 
 .header-nav-left {
@@ -321,12 +285,21 @@ nav ul li a:hover::after {
   bottom: -0.1875rem;
 }
 
+/* group icons right header */
 .icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
+
+.icons a {
+  display: flex;
+  align-items: center;
+}
+
+
 
 .cart {
   position: relative;
@@ -1346,7 +1319,9 @@ footer {
   .header-nav nav {
     display: none;
   }
-  .ic-search, .ic-personal{
+
+  .ic-search,
+  .ic-personal {
     display: none;
   }
 
@@ -1432,6 +1407,10 @@ footer {
     flex-direction: column-reverse;
     gap: 1.5rem;
     margin-bottom: 3.5rem;
+  }
+
+  .search-field {
+    display: none;
   }
 
   .hero-section .hero-right {
@@ -1675,6 +1654,11 @@ footer {
   .header-nav nav {
     display: none;
   }
+
+  .search-field {
+    display: none;
+  }
+
 
   .ic-menu {
     display: block;
