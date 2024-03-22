@@ -4,32 +4,32 @@
     // img catalog array
     const cataCards = [
       {
-        image: "../assets/images/item-img-1.png",
+        image: "./assets/images/item-img-1.png",
         name: "1.3 Chair",
         price: "$69.90",
       },
       {
-        image: "../assets/images/item-img-2.png",
+        image: "./assets/images/item-img-2.png",
         name: "Kuyu Desk",
         price: "$79.90",
       },
       {
-        image: "../assets/images/item-img-3.png",
+        image: "./assets/images/item-img-3.png",
         name: "Neat Noon",
         price: "$89.90",
       },
       {
-        image: "../assets/images/item-img-4.png",
+        image: "./assets/images/item-img-4.png",
         name: "1.3 Chair",
         price: "$99.90",
       },
       {
-        image: "../assets/images/item-img-5.png",
+        image: "./assets/images/item-img-5.png",
         name: "Morph",
         price: "$109.90",
       },
       {
-        image: "../assets/images/item-img-6.png",
+        image: "./assets/images/item-img-6.png",
         name: "1.3 Chair",
         price: "$119.90",
       },
